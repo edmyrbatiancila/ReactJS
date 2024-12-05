@@ -1,0 +1,35 @@
+.contents {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 20px 0px;
+}
+
+.contents h1 {
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+.list-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.facts-list {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.facts-list li {
+    padding-block: 10px;
+    line-height: 19px;
+}
+
+.facts-list li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
+
+.logo-half {
+    margin: 0;
+    padding: 0;
+}

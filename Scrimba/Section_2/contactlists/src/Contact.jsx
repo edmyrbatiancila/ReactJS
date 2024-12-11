@@ -1,24 +1,18 @@
-export default function Contact() {
+export default function Contact({ img, alt, name, contact, email }) {
     return(
         <article className="contact-card">
             <img 
-                src="./images/cat_1.jpg"
-                alt="cat number 1"
+                src={img}
+                alt={alt}
             />
-            <h3>Mr. Whiskerson</h3>
+            <h3>{name}</h3>
             <div className="info-group">
-                <img 
-                    src="./images/phone-icon.png" 
-                    alt="phone icon" 
-                />
-                <p>(212) 555-1234</p>
+                <i class="fa-solid fa-phone"></i>
+                <p>{contact}</p>
             </div>
             <div className="info-group">
-                <img 
-                    src="./images/mail-icon.png" 
-                    alt="mail icon"
-                />
-                <p>mr.whiskaz@catnap.meow</p>
+                <i class="fa-solid fa-envelope"></i>
+                <p>{email}</p>
             </div>
         </article>
     )

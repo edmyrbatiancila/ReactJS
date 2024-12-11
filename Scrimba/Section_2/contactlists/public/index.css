@@ -7,6 +7,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: 'Inter', sans-serif;
     background-color: whitesmoke;
 }
@@ -31,9 +32,10 @@ body {
 
 .contact-card > img {
     width: 150px;
-    align-self: center;
+    height: 180px;
     border-radius: 5px;
     object-fit: cover;
+    object-position: center;
 }
 
 .contact-card > h3 {
@@ -44,6 +46,7 @@ body {
 .info-group {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .info-group > img {
